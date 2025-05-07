@@ -1,15 +1,26 @@
 import React from 'react'
-
+import './Navbar.css'
+import { useState } from 'react'  
 function Navbar() {
   return (
-    <div>
-      <div>
+    <div className="navbar">
+      <div className="logo">
         <h1>Furniro</h1>
-        <ul>
-          <li>Home</li>
-          <li>Products</li>
-          <li>About</li>
-          <li>Contact</li>
+      </div>
+      <div className="nav-items">
+        <ul className="nav-list">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Products</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
         </ul>
         <div>
           <button>Search</button>
@@ -19,7 +30,7 @@ function Navbar() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Navbar
