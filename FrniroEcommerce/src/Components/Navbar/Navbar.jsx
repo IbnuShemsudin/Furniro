@@ -1,6 +1,9 @@
 import React from 'react'
 import './Navbar.css'
-import { useState } from 'react'  
+import { useState } from 'react' 
+// import {search} from 'react-icons/fa'
+// import { cart } from 'react-icons/fa'
+
 function Navbar() {
   return (
     <div className="navbar">
