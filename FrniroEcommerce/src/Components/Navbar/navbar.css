@@ -10,26 +10,86 @@
     font-size: 24px;
     font-weight: bold;
 }
-.navbar .logo img{
-    width: 50px;
-    height: 50px;
-}
+
 .navbar .nav-items{
     display: flex;
     gap: 20px;
+    
 }
 .navbar .nav-list{
     list-style: none;
     display: flex;
     gap: 20px;
 }
+.navbar .nav-list li{
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-list li a{
+    text-decoration: none;
+    color: white;
+    padding: 2px 4px 2px 2px;
+    background-color: #333;
+    border-radius: 5px;
+}
 .navbar .nav-items a:hover{
     color: #ff6347; /* Tomato color on hover */
 }
 
 .navbar .nav-items a{
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s;
+   flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar .cart-icon{
+    font-size: 24px;
+    cursor: pointer;
+}
+.navbar .cart-icon:hover{
+    color: #ff6347; /* Tomato color on hover */
+}
+.navbar .search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar .nav-items{
+        display: none;
+    }
+    .navbar .search-bar{
+        display: none;
+    }
+    .navbar .cart-icon{
+        display: none;
+    }
+    .navbar .hamburger-menu{
+        display: block;
+        cursor: pointer;
+    }
+    .furnito_Menu_Container_2_list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        list-style: none;
+    }
+    .furnito_Menu_Container_2_list li a{
+        text-decoration: none;
+        color: white;
+        padding: 2px 4px 2px 2px;
+        background-color: #333;
+        border-radius: 5px;
+    }
+    .furnito_Menu_Container_2_list li a:hover{
+        background-color: #ff6347; /* Tomato color on hover */
+                padding: 2px 4px 2px 2px;
+        border-radius: 5px;
+    }
+
+}
+@media screen and (max-width: 550px){
+
 }
