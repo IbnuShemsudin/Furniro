@@ -16,7 +16,7 @@ function Header() {
         <h2>Find the perfect furniture for your home</h2>
         <p>Shop now and enjoy exclusive discounts!</p>
         <button className="shop-now">Shop Now</button>
-        <button className="learn-more">Learn More</button>
+        <button className="learn-more">Learn More</button>       
       </div>
     </div>
   );
