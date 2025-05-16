@@ -41,9 +41,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr />
-        <p className="footer-bottom">&copy; 2023 Furniro. All rights reserved. | Designed by Your Name</p>
-      
+      <div className="footer-bottom">
+        <p>&copy; 2023 Furniro. All rights reserved. | Designed by Your Name</p>
+      </div>
     </div>
   );
 }

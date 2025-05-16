@@ -60,6 +60,10 @@
     font-size: 16px;
     
 }
+.footer-links a:hover{
+    text-decoration: underline;
+    color: #0056b3; /* Darker link on hover */
+}
 .footer-newsletter{
     display: flex;
     flex-direction: column;
@@ -99,6 +103,22 @@
     max-width: 1200px;
     padding: 0 20px;
     margin-top: 200px;
+}
+.footer-bottom{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    height: 200px;
+    border-top: #242020 4px solid;
+}
+.footer-bottom p{
+    
+    
+    padding: 20px 0;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    justify-content: center;
 }
 @media screen and (max-width: 850px){
     .footer-content{
